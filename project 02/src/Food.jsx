@@ -1,14 +1,15 @@
-function Food (){
+function Food(){
 
-    const food1="Pineapple";
-    const food2="Apple";
-
+    const food1 = "Pizza"
+    const food2 = "Burger"
     return(
-        <><ul>
+        <ul>
             <li>Apple</li>
             <li>{food1}</li>
             <li>{food2.toUpperCase()}</li>
-        </ul></>
+        </ul>
     )
+
 }
+
 export default Food

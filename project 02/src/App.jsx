@@ -1,16 +1,16 @@
-import Header from './assets/Header'
-import Footer from './assets/Footer'
-import Food from './assets/Food'
+import Header from './Header'
+import Footer from './Footer'
+import Food from './Food'
 
 function App() {
-  
-
   return(
     <>
-    <Header/>
-    <Food/>
-    <Footer/>
+     <Header />
+     <Food />
+     <Footer />
+
     </>
+   
   )
 }
 
