@@ -1,0 +1,13 @@
+.student{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+
+}
+
+.student p{
+  margin: 0;
+
+}
+
