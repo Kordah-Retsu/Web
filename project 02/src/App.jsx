@@ -1,11 +1,11 @@
-import List from './List';
+import ProfilePicture from "./ProfilePicture";
 
 
 function App() {
 
   return(
     <>
-      <List />
+      <ProfilePicture />
     </>
    
   );
