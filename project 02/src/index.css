@@ -1,18 +1,28 @@
-.welcome-message{
-  font-size: 2.5em;
-  background-color:rgb(60, 255, 0);
-  color:rgb(255, 255, 255);
-  padding: 10px;
+.counter-container{
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.count-display{
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color:rgb(18, 155, 235);
+  color: white;
+  border: none;
   border-radius: 5px;
-  margin: 0;
+  cursor: pointer;
 
 }
 
-.login-prompt{
-  font-size: 2.5em;
-  background-color:rgb(190, 129, 129);
-  color:rgb(255, 255, 255);
-  padding: 10px;
-  border-radius: 5px;
-  margin: 0;
-} 
+.counter-button:hover{
+  background-color: rgb(0, 123, 255);
+}
