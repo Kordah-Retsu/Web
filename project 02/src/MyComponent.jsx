@@ -41,7 +41,7 @@ function MyComponent() {
     }
 
     return (<div>
-            <h2>Your favorite car is: {carYear} {carMake} {carModel}</h2>
+            <h2>Your favorite car is: {carYear}, {carMake} {carModel}</h2>
             <ul>
                 {cars.map((car, index) => 
                     <li key={index}>
