@@ -1,42 +1,84 @@
 body{
+  background-color: rgb(6, 238, 207);
+}
+.to-do-list(
   font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 100px;
+)
+.to-do-list.h1{
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(0, 217, 255);
 }
-.color-picker-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 h1{
-  margin: 50px;
-  font-size: 3rem;
-}
-.color-display{
-  width:300px;
-  height:300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 5px solidrgb(255, 255, 255);
-  border-radius: 30px;
-  margin-bottom: 20px;
-  transition: 1s ease;
-}
-.color-display p{
-  color: hsl(0, 0%, 20%)
-  font-size: 2rem;
+  font-size: 6rem;
+  font-weight: bold;
   text-align: center;
 }
 
-label{
-  font-size: 1.5rem;
+button{
+  font-size: 30px;
   font-weight: bold;
-  margin-bottom: 10px;
-}
-input[type="color"]{
-  width: 75px;
-  height: 50px;
-  border: 3px solid hsl(0, 0%, 80%);
-  border-radius: 10%;
-  padding: 5px;
+  padding: 10px 30px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color:rgb(89, 201, 245);
   cursor: pointer;
+  transition: background-color 0.1s ease;
+  padding: 10px 20px;
+  margin: 2px;
+}
+
+.add-button{
+  background-color: rgb(132, 250, 142);
+}
+.add-button:hover{
+  background-color: rgb(5, 238, 94);
+}
+.delete-button{
+  background-color: rgb(231, 87, 87);
+}
+.delete-button:hover{
+  background-color: rgb(255, 1, 1);
+}
+.move-button{
+  background-color: rgb(108, 135, 253);
+}
+.move-button:hover{
+  background-color: rgb(5, 1, 255);
+}
+input[type="text"]{
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+  color: rgba(116, 104, 104, 0.19);
+}
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  border: 3px solid rgb(133, 132, 132);
+  border-radius: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex: 1;
+}
+.delete-button, .move-button{
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-left: 10px;
 }
